@@ -144,7 +144,8 @@ main {
 .section-title {
     display: block;
     text-align: center;
-    padding-bottom: 1.5%;
+    padding-bottom: 30px
+    /* padding-bottom: 1.5%; */
     font-weight: 500;
     font-size: 2.8em;
     transform: translateX(0%) translateY(-25%);
@@ -180,46 +181,41 @@ a {
 }
 
 .container {
-    padding-top: 3%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 7%;
-    margin-top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
     background-color: rgb(236, 236, 236);
-}
-
-.container-item {
+    padding: 15px 0;
+    margin: 30px;
+  }
+  
+  .card-wrapper {
     display: flex;
-    flex-direction: column;
-}
-
-.block-title {
-    display: inline-block;
-    padding-left: 44%;
-    font-size: 1.7em;
-}
-
-.block-image {
-    display: inline-block;
+  }
+  
+  .right-col, .left-col {
+    padding: 15px 15px 0 15px;
+  }
+  
+  .left-col {
     width: 40%;
+  }
+  
+  .right-col {
+    width: 60%;
+  }
+  
+  .left-col img {
+    width: 100%;
     height: auto;
-    float: left;
-    padding-right: 4%;
-    position: relative;
-}
-
-.block-text {
-    display: inline-block;
-    text-align: left;
-    float: right;
-}
+  }
+  
+  .card-wrapper h3{
+    font-size: 1.7em;
+    margin: 0;
+  }
+  
+  .card-wrapper p{
+    margin: 12px 0 0 0;
+    /*your paharagraph sytles*/
+  }
 
 #home {
     height: 500px;
@@ -227,15 +223,15 @@ a {
     position: relative;
 }
 
-#projects {
+/* #projects {
     height: 600px;
     position: relative;
-}
+} */
 
-#experience {
+/* #experience {
     height: 600px;
     position: relative;
-}
+} */
 
 
 /* .up-arrow {
