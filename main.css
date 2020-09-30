@@ -39,6 +39,7 @@ main {
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 200ms ease;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -149,7 +150,7 @@ main {
     font-weight: 700;
     font-size: 3.3em;
     transform: translateX(0%) translateY(-25%);
-    /* z-index: 0; */
+    z-index: 0;
 }
 
 .section-title-highlight {
@@ -231,11 +232,13 @@ a {
     margin: 11px 0 2px 0;
     cursor: pointer;
     transition-duration: 0.4s;
+    outline: none;
 }
 
 .card-wrapper .codeButton i {
     padding-left: 7px;
     font-size: 1.2em;
+    outline: none;
 }
 
 /* button hover color change */
@@ -243,6 +246,7 @@ a {
     background-color: #35FCCE;
     color: black;
     font-weight: 600;
+    outline: none;
 }
 
 .card-wrapper .readMoreButton {
@@ -256,6 +260,7 @@ a {
     margin: 11px 0 2px -8.3px;
     cursor: pointer;
     transition-duration: 0.4s;
+    outline: none;
 }
 
 /* button hover color change */
@@ -263,17 +268,28 @@ a {
     background-color: #35FCCE;
     color: black;
     font-weight: 600;
+    border-radius: 8px;
+    outline: none;
 }
 
 .card-wrapper .readMoreButton i {
     padding-left: 7px;
     font-size: 1em;
+    outline: none;
 }
 
 /* paragraph styling */
 .card-wrapper p {
     margin: 12px 0 0 0;
 }
+
+.experience-date {
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'Roboto Mono';
+    margin: 7px 0;
+}
+
 
 #more {
     display: none;
@@ -282,6 +298,15 @@ a {
     display: none;
 }
 #more3 {
+    display: none;
+}
+#more4 {
+    display: none;
+}
+#more5 {
+    display: none;
+}
+#more6 {
     display: none;
 }
 
