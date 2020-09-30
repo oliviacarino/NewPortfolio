@@ -45,3 +45,16 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+//   //read more button slideToggle
+//   $( "button" ).click(function() {
+//     $( "#more1" ).slideToggle( "medium" );
+//         var $this = $(this);
+//           $this.toggleClass("open");
+  
+//           if ($this.hasClass("open")) {
+//               $this.html("Less");
+//           } else {
+//               $this.html("Read more");
+//           }
+//   });
