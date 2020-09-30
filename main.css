@@ -78,6 +78,7 @@ main {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
     color: var(--text-secondary);
+    cursor: pointer;
 }
 
 .link-text {
@@ -290,7 +291,7 @@ a {
     margin: 7px 0;
 }
 
-
+/* Read More buttons */
 #more {
     display: none;
 }
@@ -315,6 +316,7 @@ a {
     height: 500px;
     /* margin-bottom: 0; */
     position: relative;
+    /* overflow-anchor: none; */
 }
 
 /* Update this after everything is done */
