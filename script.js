@@ -45,7 +45,7 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
-
+ 
   function myFunction4() {
     var dots = document.getElementById("dots4");
     var moreText = document.getElementById("more4");
