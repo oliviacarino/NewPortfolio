@@ -185,70 +185,107 @@ a {
     padding: 20px 10px 35px 10px;
     /* margin: 10px 0; */
     margin: 10px 30px 0 30px;
-  }
-  
-  .card-wrapper {
+}
+
+.card-wrapper {
     display: flex;
-  }
-  
-  .right-col, .left-col {
+}
+
+.right-col,
+.left-col {
     padding: 15px 30px 0 30px;
-  }
-  
-  .left-col {
+}
+
+.left-col {
     width: 40%;
-  }
-  
-  .right-col {
+}
+
+.right-col {
     width: 60%;
     margin-top: -10px;
-  }
-  
-  /* img styling */
-  .left-col img {
+}
+
+/* img styling */
+.left-col img {
     width: 100%;
     height: auto;
-  }
-  
-  /* Title styling */
-  .card-wrapper h3{
+}
+
+/* Title styling */
+.card-wrapper h3 {
     font-family: Roboto;
     font-weight: 500;
     font-size: 2em;
     margin: 0;
-  }
+}
 
-  /* Button styling */
-  .card-wrapper button {
-      font-weight: 400;
-      font-size: 0.85em;
-      border-radius: 8px;
-      background-color: black;
-      color: white;
-      border-style: none;
-      padding: 6px 8px 6px 8px;
-      margin: 11px 0 2px 0;
-      cursor: pointer;
-      transition-duration: 0.4s;
-  }
-  .card-wrapper button i {
-      padding-left: 7px;
-      font-size: 1.2em;
-  }
+/* Button styling */
+.card-wrapper .codeButton {
+    font-weight: 400;
+    font-size: 0.85em;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 6px 8px 6px 8px;
+    margin: 11px 0 2px 0;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
 
-  /* button hover color change */
-  .card-wrapper button:hover {
-      background-color: #35FCCE;
-      color: black;
-      font-weight: 600;
-  }
-  
-  /* paragraph styling */
-  .card-wrapper p{
+.card-wrapper .codeButton i {
+    padding-left: 7px;
+    font-size: 1.2em;
+}
+
+/* button hover color change */
+.card-wrapper .codeButton:hover {
+    background-color: #35FCCE;
+    color: black;
+    font-weight: 600;
+}
+
+.card-wrapper .readMoreButton {
+    font-weight: 400;
+    font-size: 0.85em;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 6px 8px 6px 8px;
+    margin: 11px 0 2px 0;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/* button hover color change */
+.card-wrapper .readMoreButton:hover {
+    background-color: #35FCCE;
+    color: black;
+    font-weight: 600;
+}
+
+.card-wrapper .readMoreButton i {
+    padding-left: 7px;
+    font-size: 1em;
+}
+
+/* paragraph styling */
+.card-wrapper p {
     margin: 12px 0 0 0;
-  }
+}
 
-  /* Update this */
+#more {
+    display: none;
+}
+#more2 {
+    display: none;
+}
+#more3 {
+    display: none;
+}
+
+/* Update this */
 #home {
     height: 500px;
     /* margin-bottom: 0; */
