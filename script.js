@@ -94,6 +94,7 @@ function myFunction() {
     }
   }
 
+
 //   //read more button slideToggle
 //   $( "button" ).click(function() {
 //     $( "#more1" ).slideToggle( "medium" );
