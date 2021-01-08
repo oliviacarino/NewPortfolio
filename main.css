@@ -189,6 +189,10 @@ a {
     margin: 10px 30px 32px 30px;
 }
 
+#projects {
+    margin-bottom: 60px;
+}
+
 .card-wrapper {
     display: flex;
 }
